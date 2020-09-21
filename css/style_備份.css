@@ -1,0 +1,691 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+    display: block;
+
+}
+
+body{
+    margin: 0;
+}
+
+#logobar{
+     width: 100%;
+     height: 43px;
+     background-color: rgb(0, 0, 0) ; 
+
+ }
+ #logo{
+     width:100px;
+     height: 30px;
+     background-color: snow;
+     float: left;
+     margin:7px 10px;
+     background-image: url("https://w.wallhaven.cc/full/4o/wallhaven-4ode69.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;  
+
+ }
+
+ #banner{
+     width: 100%;
+     height:500px;
+     background-image: url("https://w.wallhaven.cc/full/qd/wallhaven-qd6q7q.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     /* background-attachment: fixed; 
+     /* background-color: rgb(166, 207, 221) ; */
+     transition: 1s;
+}
+
+
+ .mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    /* box-sizing: border-box; */
+    position: relative;
+
+}
+#banner:hover{
+    background-image: url("https://w.wallhaven.cc/full/lq/wallhaven-lqe2rq.jpg");
+    background-position:  left -220px ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+
+.container{
+    width:1280px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(1, 7, 10, 0.5);
+    
+}
+
+#nav{
+    width: 100%;
+    /* height: 800px; */
+    background-color: rgb(6, 7, 7);
+   
+}
+
+.btn-group{
+    width: 100%;
+    /* height: 100%; */
+    background-color:  rgba(1, 7, 10, 0.5);
+
+    display:flex;
+    /* align-items: center;
+    justify-content: space-between;  */
+}
+
+.btn{
+    flex:1;
+
+    width:130px;
+    height: 40px;
+    background-color: rgba(8, 4, 247, 0.24);
+    display: block;
+    text-align: center;
+    line-height: 30px; 
+    text-decoration: none; 
+    float: left;
+    color:yellow;
+    border-radius: 50%;
+
+
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: black;
+    color:white;
+    border: 3px solid red;
+
+}
+
+
+#content{
+    width: 100%;
+    /* height:500px; */
+    background-color: rgb(255, 255, 255);
+}
+
+#section1{
+    
+    width: 100%;
+    height:500px; 
+    background-color: rgb(42, 165, 63);
+
+    background-image: url("https://w.wallhaven.cc/full/nz/wallhaven-nzvqry.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+.fullpage{
+    width: 100%;
+    /* background-size: cover;  */
+    /* background-position: center;  */
+    background-attachment: fixed;
+
+    
+}
+.text-box{
+    height: 100px;
+    background-color:rgba(84, 84, 88, 0.507);
+
+    font-size: 40px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: 900;
+    color: white;
+
+    position: relative;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%,-50%); 
+}
+
+
+ 
+#section2{
+    width: 100%;
+    color: mintcream;
+}
+.text-area-whit{
+    width: 100%;
+    background-color:  rgb(0, 0, 0);
+    padding: 30px 100px;
+    box-sizing: border-box; 
+}
+h1{
+    text-align: center;
+    color: maroon;
+}
+
+#section3{
+    
+    width: 100%;
+    height:600px; 
+    background-color: rgb(1, 7, 10);
+    background-image: url("https://w.wallhaven.cc/full/vm/wallhaven-vmxokp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#photo{
+    width:41.66% ;
+     height: 600px;
+     border-radius: 20%;
+     border:5px solid #070329;
+     /* position: absolute; */
+     float: left;
+
+     background-image: url("https://img.4gamers.com.tw/ckfinder/image2/auto/2019-03/AvengersEndgame5c8ab7ef7eac2-190326-145657.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+ }
+ #introduction{
+    width:calc(58.33% - 100px);
+    height: 500px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:50px;
+
+ }
+ #text{
+    width: 100%;
+    height: 500px;
+
+    font-size: 15px;
+    /* text-align: center; */
+
+    font-weight: 900;
+    color: white;
+
+    /* position: absolute; */
+   
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+ }
+ h2{
+    text-align: center;
+    color: rgb(218, 187, 11);
+}
+
+iframe{
+    width: 660px;
+    height: 400px;
+    margin: 20px;
+
+}
+#section4{
+    
+    width: 100%;
+    height:500px; 
+    background-color: rgb(0, 0, 0);
+    background-image: url("https://w.wallhaven.cc/full/vm/wallhaven-vmxokp.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+} 
+
+#title{
+    width: 100%;
+    height: 100px;
+    color: rgb(218, 31, 31);
+    padding: 10px ;
+    box-sizing: border-box; 
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+#title1{
+    width: 100%;
+    height: 60px;
+    color: red;
+    padding: 10px ;
+    box-sizing: border-box; 
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+#actor{
+    width: 100%;
+    height: 300px;
+    color: rgb(26, 15, 15);
+    padding: 10px ;
+    box-sizing: border-box; 
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    
+} 
+#iron{
+    width:200px;
+     height: 300px;
+     border-radius: 10%;
+     border:5px solid #070329;
+     /* position: absolute; */
+
+     background-image: url("https://w.wallhaven.cc/full/01/wallhaven-01dxg9.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     transition: 0.5s;
+     float: left;
+     margin-left: 30px ;
+
+ }
+
+#iron:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg/800px-Robert_Downey_Jr_2014_Comic_Con_%28cropped%29.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+#leader{
+    width:200px;
+     height: 300px;
+     border-radius: 10%;
+     border:5px solid #070329;
+     /* position: absolute; */
+     float: left;
+     
+     
+
+     background-image: url("https://w.wallhaven.cc/full/95/wallhaven-95m9x8.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     transition: 0.5s;
+
+ }
+
+#leader:hover{
+    background-image: url("https://i2.kknews.cc/SIG=9417u7/6p2q0004r95o37pn93q7.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+#thor{
+    width:200px;
+     height: 300px;
+     border-radius: 10%;
+     border:5px solid #070329;
+     /* position: absolute; */
+     float: left;
+     
+     
+
+     background-image: url("https://w.wallhaven.cc/full/md/wallhaven-md69r9.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     transition: 0.5s;
+
+ }
+
+#thor:hover{
+    background-image: url("https://www.beautimode.com/upload/media/6bb83ceb60315a50cb7394c0361a2226.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+#hulk{
+    width:200px;
+     height: 300px;
+     border-radius: 10%;
+     border:5px solid #070329;
+     /* position: absolute; */
+     float: left;
+     
+     
+
+     background-image: url("https://w.wallhaven.cc/full/43/wallhaven-43kery.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     transition: 0.5s;
+
+ }
+
+#hulk:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg/800px-Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+#widow{
+    width:200px;
+     height: 300px;
+     border-radius: 10%;
+     border:5px solid #070329;
+     /* position: absolute; */
+     float: left;
+     
+     
+
+     background-image: url("https://w.wallhaven.cc/full/43/wallhaven-43qv6v.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     transition: 0.5s;
+
+ }
+
+#widow:hover{
+    background-image: url("https://assets.juksy.com/files/articles/71366/800x_100_w-59d1b99d66188.png");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+#hawkeye{
+    width:200px;
+     height: 300px;
+     border-radius: 10%;
+     border:5px solid #070329;
+     /* position: absolute; */
+     float: left;
+     
+     
+
+     background-image: url("https://w.wallhaven.cc/full/4v/wallhaven-4vgwe5.jpg");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover; 
+     transition: 0.5s;
+
+ }
+
+#hawkeye:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Jeremy_Renner_SDCC_2014_%28cropped%29.jpg/800px-Jeremy_Renner_SDCC_2014_%28cropped%29.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+#name{
+    width: 100%;
+    height: 100px;
+    color: rgb(218, 31, 31);
+    padding: 10px ;
+    box-sizing: border-box; 
+    font-size: 50px;
+    text-align: center;
+    font-weight: 900;
+    
+}
+#n1{
+
+     height: 50px;
+     background-color:  rgb(26, 15, 15);;
+     float: left;
+     margin:20px 80px;
+
+    border-radius: 25%; 
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid white; 
+    padding: 6px ;
+
+    color: firebrick;
+    font-weight: 900;
+     
+
+ }
+ #n2{
+    
+     height: 50px;
+     background-color:  rgb(26, 15, 15);;
+     float: left;
+     margin:20px ;
+
+    border-radius: 25%; 
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid orangered; 
+    padding: 6px ;
+
+
+    color: firebrick;
+    font-weight: 900;
+     
+
+ }
+ #n3{
+    
+    height: 50px;
+    background-color:  rgb(26, 15, 15);;
+    float: left;
+    margin:20px 55px ;
+
+   border-radius: 25%; 
+   text-align: center;
+   font-size: 25px;
+   border: 2px solid yellow; 
+   padding: 6px ;
+
+
+   color: firebrick;
+   font-weight: 900;
+    
+
+}
+#n4{
+    
+    height: 50px;
+    background-color:  rgb(26, 15, 15);;
+    float: left;
+    margin:20px 55px ;
+
+   border-radius: 25%; 
+   text-align: center;
+   font-size: 25px;
+   border: 2px solid green; 
+   padding: 6px ;
+
+
+   color: firebrick;
+   font-weight: 900;
+    
+
+}
+#n5{
+    
+    height: 50px;
+    background-color:  rgb(26, 15, 15);;
+    float: left;
+    margin:20px 55px ;
+
+   border-radius: 25%; 
+   text-align: center;
+   font-size: 25px;
+   border: 2px solid blue; 
+   padding: 6px ;
+
+
+   color: firebrick;
+   font-weight: 900;
+    
+
+}
+#n6{
+    
+    height: 50px;
+    background-color:  rgb(26, 15, 15);;
+    float: left;
+    margin:20px 55px ;
+
+   border-radius: 25%; 
+   text-align: center;
+   font-size: 25px;
+   border: 2px solid purple; 
+   padding: 6px ;
+
+
+   color: firebrick;
+   font-weight: 900;
+    
+
+}
+#section5{
+    
+    width: 100%;
+    height:500px; 
+    background-color: rgb(42, 165, 63);
+    color: white;
+    
+    background-image: url("https://w.wallhaven.cc/full/4x/wallhaven-4x9mez.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+
+.fullpage{
+    width: 100%;
+    /* background-size: cover;  
+    background-position: center;   */
+    background-attachment: fixed;
+
+    
+}
+
+
+#footer{
+     width: 100%;
+     height: 43px;
+     background-color: rgb(1, 54, 80) ; 
+
+ }
+
+ #GotoTop{
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    color: black;
+
+    background-image: url("https://w.wallhaven.cc/full/2e/wallhaven-2edd8m.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    border-radius: 50%;
+    text-align: center;
+    line-height: 100px;
+    font-size: 25px;
+    border: 3px solid rgb(36, 2, 231); 
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 10;
+
+    transition: 0.5s;
+}
+#GotoTop:hover{
+    border: 4px solid  crimson;
+
+}
+.video-container {
+
+position: relative;
+
+padding-bottom: 56.25%;
+
+padding-top: 30px;
+
+height: 0;
+
+overflow: hidden;
+margin-right: 20px;
+
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+
+position: absolute;
+
+top: 0;left: 0;
+
+width: 100%;
+
+height: 100%;
+}
+
+
+
+
+@media(max-width:1280px){
+
+#banner:hover{
+    background-image: url("https://w.wallhaven.cc/full/lq/wallhaven-lqe2rq.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.container{
+    width:1140px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(1, 7, 10, 0.5);
+    
+}
+}
+
+ @media(max-width:1140px){
+
+#banner:hover{
+    background-image: url("https://w.wallhaven.cc/full/lq/wallhaven-lqe2rq.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.container{
+    width:960px;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(1, 7, 10, 0.5);
+    
+}
+} 
+@media(max-width:960px){
+
+#banner:hover{
+    background-image: url("https://w.wallhaven.cc/full/lq/wallhaven-lqe2rq.jpg");
+    background-position:  center ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.container{
+    width:100%;
+    height: 100%;
+    margin: auto;
+    background-color: rgba(1, 7, 10, 0.5);
+    
+}
+} 
+
+
+
